@@ -1,5 +1,4 @@
-1. Passos para criar chave ssh:
-
+1. *Passos para criar chave ssh:*
    - no Git Bash : **$ ssh-keygen -t <nome da chave> -C <email>** (serão criadas as chaves pública e privada na pasta .ssh)
    - Para adicionar a chave no GitHub é preciso executar o comando **cat** da chave pública que se encontra na pasta .ssh e incluí-la na  no settings / profile/ ssh keys da conta do GitHub.
    - Após colocar a chave no GitHub, inicializá-la no Git Bash (start do ssh agent) em background: **$ eval $(ssh-agent -s)**
@@ -7,7 +6,7 @@
 
 
 
-2. Configuração de Token no GitHub:
+2. *Configuração de Token no GitHub:*
 
 - Em Developer Settings / Personal Access Tokens:
   - dar um nome para o Token (note)
@@ -17,7 +16,7 @@
 
 
 
-3. Comandos no Git:
+3. *Comandos no Git:*
 
 - Iniciar o Git : **git init**
 - Iniciar o versionamento: **git add * / git add . / git add <nomearq>**
@@ -29,7 +28,7 @@
 
 
 
-4. Configuração GitHub / Git Bash:
+4. *Configuração GitHub / Git Bash:*
 
 - adicionar a origem: **git remote add origin <url do repositório obtida no GitHub>**
 - lista de remotes que tem cadastrado: **git remote -v**
