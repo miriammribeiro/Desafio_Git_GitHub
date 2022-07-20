@@ -20,7 +20,7 @@
 3. Comandos no Git:
 
 - Iniciar o Git : **git init**
-- Iniciar o versionamento: **git add * / git add. / git add <nomearq>**
+- Iniciar o versionamento: **git add * / git add . / git add <nomearq>**
 - Criar um commit: **git commit -m "<texto>"**
 - Configurações no Git (geralmente configurações iniciais). Pode ser global ou apenas no repositório:  **git config --global user.email <email>**
 - Verificar o status: **git status**
@@ -33,6 +33,6 @@
 
 - adicionar a origem: **git remote add origin <url do repositório obtida no GitHub>**
 - lista de remotes que tem cadastrado: **git remote -v**
-- levar repositório local para o repositório remoto: **git push origin master**
-- atualizar repositório do GitHub para o Git Bash: **git pull origin master**
+- levar repositório local para o repositório remoto: **git push origin main**
+- atualizar repositório do GitHub para o Git Bash: **git pull origin main**
 - baixar código do GitHub para o Git Bash: **git clone <url do repositório obtida no GitHub>**
