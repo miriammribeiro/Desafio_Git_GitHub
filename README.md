@@ -4,7 +4,7 @@
 
 ## Links Úteis
 
-*[Sintaxe Básica Markdown](markdownguide.org/basic-syntax/)*
+*[Sintaxe Básica Markdown](https://markdownguide.org/basic-syntax/)*
 
 *[Download Git](https://git-scm.com/download/)*
 
